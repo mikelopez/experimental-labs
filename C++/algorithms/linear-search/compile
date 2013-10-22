@@ -1,0 +1,1 @@
+g++ linear-search.cpp -o linear-search.out
