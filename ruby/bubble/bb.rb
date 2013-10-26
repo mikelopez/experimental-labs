@@ -2,7 +2,6 @@
 # Average O(n2)
 #
 strs = (0...512).map{ ('a'..'z').to_a[rand(26)] }.join
-#strs = "dfnsdzvnxsdlzzlflsmkmpoklcuswwedwwercklffhgfshjjgdgcsaschsudhs"
 chars = strs.chars.to_a
 chars.each_with_index do |x, index|
     j = 0
