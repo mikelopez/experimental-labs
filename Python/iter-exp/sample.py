@@ -26,7 +26,7 @@ def exp2(a, b):
 
 def exp3(a, b):
     """
-    a ^ b = (a * a) ^ (b / 2)      (if b is even)
+    a^b = (a * a) ^ (b / 2)      (if b is even)
           = a (a ^ b - 1)         (if b is odd)
     """
     if b == 1:
