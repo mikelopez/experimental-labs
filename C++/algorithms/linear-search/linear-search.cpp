@@ -1,3 +1,8 @@
+/* 
+ * Linear Search Timing: O(n)
+ * 
+*/
+
 #include <iostream>
 #include <cstdlib>
 

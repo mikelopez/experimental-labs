@@ -1,3 +1,11 @@
+/* 
+ * Illustrating the Bubblesort algorithm
+ * 
+ * Timing Complexity:
+ * Best/Average/Worse: O(n^2)
+ *
+*/
+
 #include <iostream>
 #include <cstdlib>
 #include <iostream>
