@@ -26,9 +26,9 @@ int main() {
         lc = leftchild(i);
         rc = rightchild(i);
         p = parent(i);
-        cout << "Left child of index: " << i << " is " << lc << endl;
-        cout << "Right child of index: " << i << " is " << rc << endl;
-        cout << "Parent of index: " << i << " is " << p << endl;
+        cout << "Left child-index[" << i << "] is (index * 2) + 1 = " << lc << endl;
+        cout << "Right child-index[" << i << "] is (index * 2) + 1 = "  << rc << endl;
+        cout << "Parent of child-index[" << i << "] is floor((index - 1) / 2) = " << p << endl;
     }
 
     return 0;
