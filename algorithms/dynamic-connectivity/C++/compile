@@ -1,0 +1,1 @@
+g++ dynamic-connectivity-client.cpp -o dynclient.out

@@ -1,0 +1,4 @@
+gcc threesum.c -o 3sum.out
+gcc threesum-1k.c -o 3sum-1k.out
+gcc threesum-2k.c -o 3sum-2k.out
+gcc threesum-4k.c -o 3sum-4k.out
