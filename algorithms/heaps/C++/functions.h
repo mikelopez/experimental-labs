@@ -46,7 +46,9 @@ void add_element(int new_value, int* ipheap, int isize) {
     */
     ipheap[isize] = new_value;
     int ilasti = isize;
+    // i becomes parent index 
     int i = swap_with_parent(ilasti, ipheap);
+    // continue until parent is > or at the top
     while (ilasti != i) {
         ilasti = i;
         i = swap_with_parent(i, ipheap);
