@@ -24,6 +24,8 @@ int main() {
         if (i < 1) {
             a[i] = i;
         }
+        cout << "index shift right " << i << " >> 1 = " << (i >> 1) << endl;
+        cout << "index shift left " << i << " << 1 = " << (i << 1) << endl;
     }
     printa(a);
     return 0;

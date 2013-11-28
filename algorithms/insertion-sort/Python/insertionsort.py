@@ -1,3 +1,13 @@
+"""
+Demonstration of the insertion sort.
+
+Time complexity Best O(n) Average/Worse O(N^2)
+
+Useful for very small or paritially sorted lists.
+For every insertion, all elements in greater position are shifted
+to the left or beginning of the list.
+"""
+
 def insertion_sort(l):
     # sorts the list in place using insertion sort algorithm
     for index in range(1, len(l)):
@@ -12,8 +22,3 @@ def insertion_sort(l):
                 break
 
 
-if __name__ == '__main__':
-    l = [5, 9, 8, 12, 4, 22]
-    print "Using list: %s" % l
-    insertion_sort(l)
-    print "List is now\n%s" % l
