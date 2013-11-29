@@ -9,6 +9,7 @@ class TestHeapSort(unittest.TestCase):
         print A
         length = (len(A) - 1)
         build_heap(A, length)
+        print A
         sort_heap(A, length)
         print A
 

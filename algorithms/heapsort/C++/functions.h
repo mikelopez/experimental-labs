@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 int leftindex(int indexi) {
@@ -23,4 +24,18 @@ void swapit(int& irx, int& iry) {
     iry = itmp;
 }
 
-
+void max_heapify(int* A, int parent, int last) {
+    cout << "max_heap(A, " << parent << ", " << last << ")" << endl;
+    int child = leftindex(parent);
+    cout << "\tchild = " << child << endl;
+    while (child <= last) {
+        if (child < last && A[child] < A[child + 1]) {
+            child++;
+        }
+        if (A[child] > A[parent]) {
+            swapit(A[child], A[parent]);
+        }
+        parent = child;
+        child = (2*parent) + 1;
+    }
+}
