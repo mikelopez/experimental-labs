@@ -8,4 +8,4 @@ def fib(n):
     while i < n:
         start.append((start[i] + start[i+1]))
         i+=1
-    print start
+    return start
